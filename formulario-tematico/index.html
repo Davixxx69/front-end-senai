@@ -1,9 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-
+        <meta charset="UTF-8">
+        <title>Formulário Temático</title>
     </head>
     <body>
-        
+        <header>
+            <img src="imagens\Logotipo Elegante Sabor Restaurante.png" alt="logo" width="80" height="80">
+            
+            <h1><b>Sabor Restaurante</b></h1>
+            
+            <p>Faça ja a sua reserva no nosso restaurante e não perca a chance de criar um momento <b>único, especial e delicioso!</b></p>
+
+
+            <nav>
+                <a href="#sobre">| Sobre |</a>
+                <a href="#servicos"> Serviços |</a>
+                <a href="#reservas"> Reservas |</a>
+                <a href="#contato"> Contato |</a>
+                <hr>
+            </nav>
+        </header>
+        <main>
+            <section id="sobre">
+                <h2>Sobre o Sabor Restaurante</h2>
+                <h3>Uma experiência gastronômica única!</h3>
+                <p>Bem-vindo ao nosso restaurante! Oferecemos uma experiência gastronômica única com pratos deliciosos e um ambiente acolhedor. Saiba mais sobre a nossa história e os nossos valores:</p>
+                <p>O Sabor Restaurante é um lugar especial onde a tradição e a inovação se encontram para criar uma experiência gastronômica inesquecível.
+                     Nossa missão é oferecer aos nossos clientes uma combinação perfeita de sabores autênticos, apresentação elegante e serviço excepcional.
+                      Desde 2010, estamos comprometidos com a excelência em cada detalhe e o compromisso com a satisfação do cliente.</p>
+                <img src="imagens\Jantar Aconchegante no Sabor Restaurante.png" alt="Restaurante-aconchegante" width="700" height="400">
+            </section>
+            <hr>
+            <section id="servicos">
+                <h2>Nossos Serviços</h2>
+                <h3>Oferecemos uma variedade de serviços para tornar sua experiência conosco ainda mais especial. Confira alguns dos nossos serviços:</h3>
+                <p>- Cardápio variado com o diferencial de pratos adaptados a diferentes paladares, confira </p>
+                <fieldset style="max-width: 600px">
+                    <legend>- Cardápio -</legend>
+                    <h4>Entradas:</h4>
+                    <ul>
+                        <li>Bruschetta de Tomate e Manjericão</li>
+                        <li>Salada Caprese com Pesto</li>
+                        <li>Camarão Empanado com Molho Tártaro</li>
+                        <li>Bolinho de Bacalhau com Molho de Limão Siciliano</li>
+                        <li>Carpaccio de Carne com Rúcula e Parmesão</li>
+                    </ul>
+                    <h4>Pratos Principais:</h4>
+                    <ul>
+                        <li>Filé Mignon ao Molho de Vinho Tinto</li>
+                        <li>Salmão Grelhado com Legumes</li>
+                        <li>Risoto de Cogumelos Trufados</li>
+                        <li>Frango à Parmegiana com Purê de Batata</li>
+                       
+                    </ul>
+                    <h4>Sobremesas:</h4>
+                    <ul>
+                        <li>Tiramisu Clássico</li>
+                        <li>Cheesecake de Frutas Vermelhas</li>
+                        <li>Petit Gateau com Sorvete de Baunilha</li>
+                    </ul>
+                    <h4>Opções vegetarianas:</h4>
+                    <ul>
+                        <li>Risoto de Abóbora com Queijo de Cabra</li>
+                        <li>Berinjela Recheada com Quinoa e Legumes</li>
+                        <li>Hambúrguer Vegetariano com Batata Doce Frita</li>
+                       
+                    </ul>
+                    <h4>Bebidas:</h4>
+                    <ul>
+                            <li>Coca-Cola</li>
+                            <li>Água Mineral</li>
+                            <li>Vinho Tinto</li>
+                            <li>Suco Natural(abacaxi, abacaxi com hortelã, limão, maracujá, uva)</li>
+                    </ul>
+                   
+
+
+                </fieldset>
+                <article>
+                <h3>Atendimento Inclusivo</h3>
+                <p>Um ambiente acolhedor para aproveitar
+                momentos especiais agora com serviço para pessoas com deficiencia auditiva e visual. Para isso contamos com cardápios em braille e atendimento especializado na lingua de sinais</p>
+                <img src="imagens\Inclusão à Mesa no Sabor Restaurante.png" alt="Atendimento inclusivo" width="450" height="300">
+                <img src="imagens\Atendimento inclusivo em Libras no restaurante.png" alt="Atendimento inclusivo" width="450" height="300">
+                </article>
+                <article>
+                    <h3>Eventos Especiais</h3>
+                    <p>Organizamos eventos especiais, como jantares temáticos, degustações de vinhos e noites de música ao vivo. Fique atento às nossas redes sociais para não perder nenhuma oportunidade de participar desses momentos únicos.</p>
+
+
+                    <img src="imagens\jantar_tematico.jpeg" alt="jantar-tematico" width="800" height="400">
+                    <img src="imagens\vinhos.jpg" alt="degustacao-vinhos" width="800" height="400">
+                    <img src="imagens\show.jpg" alt="show-musica" width="800" height="400">
+                </article>
+               
+            </section>
+            <hr>
+            <section id="reservas">
+                  <h3>3. Opções de reservas online para sua conveniência</h3>
+
+
+                    <form action="#" method="POST">
+                        <fieldset style="max-width: 600px">
+                            <legend>Reserve seu lugar!</legend>
+                            <label for="campo-nome">Nome Completo: </label><br>
+                            <input type="text" name="nome_completo" id="campo-nome"
+                            placeholder="Digite seu nome completo" required size="40"><br>
+
+
+                            <label for="campo-email">Email Pessoal: </label><br>
+                            <input type="email" name="email_pessoal" id="campo-email"
+                            placeholder="Digite seu email pessoal" required size="40"><br>
+
+
+                            <label for="campo-telefone">Telefone Pessoal: </label><br>
+                            <input type="tel" name="telefone_pessoal" id="campo-telefone-pessoal"
+                            placeholder="Digite seu telefone pessoal" required size="20"><br>
+
+
+                            <label for="campo-data-reserva">Data da reserva:</label><br>
+                            <input type="datetime-local" name="data_reserva" id="campo-data-reserva"><br>
+
+
+                            <label for="campo-numero-pessoas">Número de pessoas:</label><br>
+                            <input type="number" name="numero_pessoas" id="campo-numero-pessoas" required min="1" max="20" required><br>
+
+
+                            <label for="atendimento-especializado">Atendimento especializado:</label><br>
+                            <input type="checkbox" name="atendimento_especializado" id="atendimento-especializado">
+                            <label for="atendimento-especializado">Preciso de atendimento especializado(Braille)</label><br>
+
+
+                            <input type="checkbox" name="atendimento_libras" id="atendimento-libras">
+                            <label for="atendimento-libras">Preciso de atendimento em Libras</label><br>
+
+
+                            <p><b>Selecione uma preferencia</b></p>
+                            <input type="radio" name="preferencia" id="preferencia-ambiente" value="area interna" checked></input>
+                            <label for="preferencia-ambiente">Área Interna</label>
+
+
+                            <input type="radio" name="preferencia" id="preferencia-externa" value="area externa"></input>
+                            <label for="preferencia-externa">Área Externa</label><br>
+
+
+                            <label for="campo-satisfacao">Nível de expectativa para a experiência:</label><br>
+                            <input type="range" name="nivel_satisfacao" id="campo-satisfacao" min="1" max="10" value="5"><br>
+
+
+                            <label for="campo-observacoes">Observações adicionais:</label><br>
+                            <textarea name="observacoes" id="campo-observacoes" placeholder="Digite suas observações adicionais" rows="4" cols="50"></textarea><br>
+                        </fieldset>
+
+
+                        <br>
+
+
+                        <button type="submit"><b>Confirmar minha reserva</b></button>
+                        <button type="reset"><b>Limpar Formulário</b></button>
+                    </form>
+                </article>
+            </section>
+            <hr>
+            <section id="contato">
+                <h2>Entre em Contato Conosco</h2>
+                <p>Estamos aqui para ajudar! Se tiver alguma dúvida ou precisar de mais informações, não hesite em nos contatar.</p>
+                <p><b>Telefone:</b> (32) 1234-5678</p>
+                <p><b>Instagram:</b> @saborrestaurante</p>
+                <p><b>Facebook:</b> facebook.com/saborrestaurante</p>
+                <p><b>Email:</b> contato@saborrestaurante.com</p>
+                <p><b>Funcionamento:</b> Segunda a Sexta, 18:00 - 23:00</p>
+                <p><b>Endereço:</b> Centro, 123 - Juiz de Fora - MG</p>
+            </section>
+            <hr>
+             <aside>
+
+
+        <details>
+        <summary>Como chegar ao restaurante?</summary>
+        <p>Localização estratégica no centro de Juiz de Fora, com fácil acesso por meio de transporte público e táxi.</p>
+        </details>
+
+
+        <details>
+            <summary>Estacionamento</summary>
+            <p>Estacionamento próprio disponível para clientes, garantindo comodidade e segurança.</p>
+        </details>
+
+
+        <details>
+            <summary>Horário de Funcionamento</summary>
+            <p>Aberto de segunda a sexta-feira, das 18:00 às 23:00, proporcionando uma experiência gastronômica noturna.</p>
+        </details>
+   
+    </aside>
+    <hr>
+        </main>
+        <footer>
+        © 2026 Restaurante Sabor • Projeto Acadêmico SENAI MG Desenvolvido por Davi Coutinho — Curso Técnico em Informática para Internet.
+    </footer>
     </body>
 </html>
+
